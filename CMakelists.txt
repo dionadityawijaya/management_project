@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.10)
+
+# Nama proyek
+project(management_project)
+
+# Tentukan versi C++
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Tentukan direktori untuk file header
+include_directories(include)
+
+# Tentukan file sumber
+set(SOURCES
+    src/main.cpp
+    src/user.cpp
+    src/auth.cpp
+    src/task.cpp
+)
+
+# Buat executable dari file sumber
+add_executable(a ${SOURCES}),
+
+
+sesuaikan sendiri dengan compailer anda!!!
